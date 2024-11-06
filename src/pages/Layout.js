@@ -12,6 +12,9 @@ const Layout = () => {
                     <li>
                         <Link to='/toggle'>Implement a Toggle Switch.</Link>
                     </li>
+                    <li>
+                        <Link to='/todos'>Build a To-Do Lists.</Link>
+                    </li>
                 </ul>
             </nav>
         </>
