@@ -15,6 +15,9 @@ const Layout = () => {
                     <li>
                         <Link to='/todos'>Build a To-Do Lists.</Link>
                     </li>
+                    <li>
+                        <Link to='/data-fetch'>Fetch data from API.</Link>
+                    </li>
                 </ul>
             </nav>
         </>
