@@ -19,7 +19,7 @@ const Layout = () => {
                         <Link to='/data-fetch'>Fetch data from API.</Link>
                     </li>
                     <li>
-                        <Link to='/searchbar'>Create a search Bar.</Link>
+                        <Link to='/searchbar'>Create a Search Bar.</Link>
                     </li>
                 </ul>
             </nav>
