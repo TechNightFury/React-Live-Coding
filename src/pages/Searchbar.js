@@ -23,7 +23,7 @@ const SearchBar = ({items}) => {
                 <ul>
                     {
                         filteredItems.length ? filteredItems.map((item, index) => (
-                            <li keys={index}>
+                            <li key={index}>
                                 {item}
                             </li>
                         )) : <p>No search results</p>

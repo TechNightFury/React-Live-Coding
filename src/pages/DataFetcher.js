@@ -6,11 +6,9 @@ const DataFetcher = () => {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        console.log('loading...');
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(response => response.json())
             .then(data => {
-                console.log(data);
                 setData(data);
                 setLoading(true);
             });
