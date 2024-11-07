@@ -7,6 +7,7 @@ import Toggle from './pages/Toggle';
 import Todos from './pages/Todos';
 import DataFetcher from './pages/DataFetcher';
 import Searchbar from './pages/Searchbar';
+import DropdownMenu from './pages/DropdownMenu';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='todos' element={<Todos />} />
         <Route path='data-fetch' element={<DataFetcher />} />
         <Route path='searchbar' element={<Searchbar />} />
+        <Route path='dropdown' element={<DropdownMenu />} />
       </Routes>
     </Router>
   );

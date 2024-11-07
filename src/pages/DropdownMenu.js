@@ -12,7 +12,9 @@ const DropdownMenu = ({items}) => {
                 <ul>
                     {
                         items.map((item, index) => (
-                            <li key={index}>item</li>
+                            <li key={index}>
+                                {item}
+                            </li>
                         ))
                     }
                 </ul>
@@ -26,3 +28,5 @@ const App = () => {
     
     return <DropdownMenu items = {items} />
 };
+
+export default App;

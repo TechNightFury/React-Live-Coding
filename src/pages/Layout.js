@@ -21,6 +21,9 @@ const Layout = () => {
                     <li>
                         <Link to='/searchbar'>Create a Search Bar.</Link>
                     </li>
+                    <li>
+                        <Link to='/dropdown'>Build a Dropdown Menu.</Link>
+                    </li>
                 </ul>
             </nav>
         </>
