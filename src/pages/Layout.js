@@ -24,6 +24,12 @@ const Layout = () => {
                     <li>
                         <Link to='/dropdown'>Build a Dropdown Menu.</Link>
                     </li>
+                    <li>
+                        <Link to='/dropdown'>Build a Dropdown Menu.</Link>
+                    </li>
+                    <li>
+                        <Link to='/tabs'>Implement a Tabs Component.</Link>
+                    </li>
                 </ul>
             </nav>
         </>
