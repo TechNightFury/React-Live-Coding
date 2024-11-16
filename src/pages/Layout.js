@@ -30,6 +30,9 @@ const Layout = () => {
                     <li>
                         <Link to='/tabs'>Implement a Tabs Component.</Link>
                     </li>
+                    <li>
+                        <Link to='/modal'>Create a Modal Component.</Link>
+                    </li>
                 </ul>
             </nav>
         </>

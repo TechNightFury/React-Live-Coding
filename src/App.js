@@ -9,6 +9,7 @@ import DataFetcher from './pages/DataFetcher';
 import Searchbar from './pages/Searchbar';
 import DropdownMenu from './pages/DropdownMenu';
 import Tabs from './pages/Tabs';
+import Modal from './pages/Modal';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='searchbar' element={<Searchbar />} />
         <Route path='dropdown' element={<DropdownMenu />} />
         <Route path='tabs' element={<Tabs />} />
+        <Route path='modal' element={<Modal />} />
       </Routes>
     </Router>
   );
