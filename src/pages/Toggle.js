@@ -1,8 +1,8 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Toggle = () => {
-    const [ isOn, setIsOn ] = useState(false);
+    const [isOn, setIsOn] = useState(false);
     
     return (
         <>
